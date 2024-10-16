@@ -25,3 +25,27 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer components {
+  .purple-button {
+    @apply bg-violet-600 px-6 py-4 text-white rounded-full w-[200px];
+  }
+  .trans-button {
+    @apply bg-transparent px-6 py-4 text-white rounded-full border-slate-300 blur-[.5px] border-2 w-[200px];
+  }
+  .text-H1 {
+    @apply text-7xl bg-gradient-to-bl from-[#F6F6F7] to-[#7E808F] bg-clip-text text-transparent;
+  }
+  .text-H2 {
+    @apply text-6xl bg-gradient-to-bl from-[#F6F6F7] to-[#7E808F] bg-clip-text text-transparent;
+  }
+  .text-H3 {
+    @apply text-4xl  bg-gradient-to-bl from-[#F6F6F7] to-[#7E808F] bg-clip-text text-transparent;
+  }
+  .text-p {
+    @apply text-xl text-[#7E808F] text-left;
+  }
+  .card {
+    @apply bg-blue-950 w-[500px] flex flex-col p-10 gap-6;
+  }
+}
