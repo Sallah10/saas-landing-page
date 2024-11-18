@@ -8,7 +8,7 @@ const hero = () => {
       <section className='lg:flex flex-col gap-8 pt-10 my-20 items-center flex-wrap' id='hero'>
         <h1 className='lg:text-H1  md:text-H2 text-center sm:text-H3'>A CRM dashboard for engineering teams</h1>
         <p className='text-center text-p'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi dignissimos nesciunt repellat temporibus ducimus soluta ea consequatur a quas illum sed, ullam natus laborum animi exercitationem corporis voluptate architecto deleniti?</p>
-        <div className='flex gap-6 '>
+        <div className='flex gap-6  md:flex-col sm:flex-col '>
           <button className='purple-button'>
             Got a demo
           </button>
