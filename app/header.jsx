@@ -5,12 +5,12 @@ import logo from "/assets/logo.png"
 const header = () => {
   return (
     <>
-      <nav className='flex justify-between px-6 py-6 blur-24 -mt-20 mb-10 container bg-transparent items-center fixed backdrop-filter backdrop-blur-md'>
+      <nav className='flex justify-between px-4 py-6 blur-24 -mt-20 mb-10 container bg-transparent items-center fixed backdrop-filter backdrop-blur-md'>
               <Image
             src={logo}
             alt='Logo'
-            width={150}
-            height={30}
+            // width={150}
+            // height={30}
           />
           <div className='hidden md:flex md:gap-4 md:text-slate-400 text-xl'>
             <a href="#">Home</a>

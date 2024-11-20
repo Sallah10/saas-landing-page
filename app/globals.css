@@ -49,3 +49,10 @@ body {
     @apply bg-blue-950 max-w-[500px] flex flex-col p-10 gap-6;
   }
 }
+
+@layer base {
+  body,
+  html {
+    @apply m-0 p-0;
+  }
+}
