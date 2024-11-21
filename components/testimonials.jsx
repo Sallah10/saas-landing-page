@@ -10,8 +10,8 @@ import discord from "/assets/discord.png"
 
 const testimonials = () => {
   return (
-    <section id='testimonials' className='px-4'>
-      <div className='flex flex-col items-center gap-8 mb-10'>
+    <section id='testimonials' className=' border-red-300 border-8'>
+      <div className='flex flex-col items-center gap-8 mb-10 border-red-950'>
         <h2 className='text-H2 text-center'>What our clients say</h2>
         <p className='text-p text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique possimus qui dicta voluptatum distinctio ratione.</p>
       </div>

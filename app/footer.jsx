@@ -8,7 +8,7 @@ import twitter from "/assets/twitter.png"
 
 const footer = () => {
   return (
-    <footer  className='flex flex-col items-center px-8 py-10 bg-gradient-to-bl from-[#0b0716] to-[#060B27] rounded-tr-3xl  rounded-tl-3xl h-full mt-14'>
+    <footer  className='max-w-screen flex flex-col items-center py-10 bg-gradient-to-bl from-[#0b0716] to-[#060B27] rounded-tr-3xl  rounded-tl-3xl h-full mt-14'>
       <div className='flex justify-between max-w-[100%]  border-b-4 border-gray-400 pb-6 items-center'>
         <div className='flex flex-col gap-10'>
           <Image src={logo2} alt='logo'/>
@@ -46,7 +46,7 @@ const footer = () => {
         </div>
       </div>
       <div className='flex flex-col gap-8 justify-between text-p pt-4'>
-        <h3> Copyright &copy; Product | Designed by <span className='text-white'> Sallah </span> - Powered by <span className='text-white'>Sallah</span></h3>
+        <h3 className='px-6'> Copyright &copy; Product | Designed by <span className='text-white'> Sallah </span> - Powered by <span className='text-white'>Sallah</span></h3>
         <div className='flex gap-4 text-p justify-center'>
           <Image src={facebook} alt='socials'/>
           <Image src={twitter} alt='socials'/>
