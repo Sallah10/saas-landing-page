@@ -7,7 +7,7 @@ import BI3 from "/assets/Blog image3.png"
 
 const blog = () => {
   return (
-    <section id='blog' className='max-w-screen border-red-700 border-8'>
+    <section id='blog' className='max-w-screen'>
       <div className='flex flex-col gap-6 justify-between items-center mb-10 pt-4'>
         <h2 className='text-H2 text-center'> Product in the news</h2>
         <button className='purple-button'> Browse all news</button>

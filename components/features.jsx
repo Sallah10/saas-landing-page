@@ -13,7 +13,7 @@ import Image from 'next/image'
 
 const features = () => {
   return (
-    <section className='flex flex-col gap-12 my-16 mt-8 md:justify-center md:items-center border-red-800 border-8 max-w-screen' id='features'>
+    <section className='flex flex-col gap-12 my-16 mt-8 md:justify-center md:items-center max-w-screen' id='features'>
       <h2 className='text-H3 flex justify-center text-center'> Essential apps that protect your </h2>
       <div className='hidden text-H3 gap-8 items-center justify-center'>
         <Image src={email} alt="Email" /> <span>Email</span> ,<Image src={events} alt="events" /> <span>Events</span>,<Image src={files} alt="files" /> <span>Files</span>,  <Image src={documents} alt="documents" /> <span>Documents</span>
