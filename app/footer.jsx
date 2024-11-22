@@ -37,7 +37,7 @@ const footer = () => {
           <h3> Login</h3>
           <h3> Sign Up</h3>
         </div>
-        <div className='hidden md:flex gap-8 flex-col text-p h-[100%]'>
+        <div className='hidden md:flex gap-8 flex-col text-p'>
           <h3 className='text-H3 mb-2'> Utility Pages </h3>
           <h3> Style guide</h3>
           <h3> Password Protected </h3>

@@ -11,8 +11,8 @@ const About = () => {
   return (
     <>
       <section className='my-16 gap-10 flex flex-col max-w-screen' id='about'>
-        <div className='flex justify-center items-center gap-6 flex-col'>
-          <h1 className='text-H3 text-center'> Powerful features to help you manage all your leads</h1>
+        <div className='flex justify-center items-center lg:px-16 gap-6 flex-col'>
+          <h1 className='text-H3 text-center lg:text-H2'> Powerful features to help you manage all your leads</h1>
           <p className='text-p text-center text-wheat'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit tempore iusto, dolorum, sapiente culpa at aliquam corrupti, illum quibusdam soluta voluptatibus voluptates veritatis excepturi sit.</p>
         </div>
         <div className=' grid md:grid-cols-1 lg:grid-cols-2 gap-8 px-4'>
