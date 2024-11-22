@@ -15,7 +15,7 @@ const testimonials = () => {
         <h2 className='text-H2 text-center'>What our clients say</h2>
         <p className='text-p text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique possimus qui dicta voluptatum distinctio ratione.</p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 px-4 lg:grid-cols-2 gap-10">
         <div className='card rounded-xl bg-gradient-to-bl from-[#746191] to-[#060B27]'>
           <div className='flex gap-6'>
             <Image src={avatar2} width={70} height={40} alt='avatar1'/>
@@ -51,7 +51,7 @@ const testimonials = () => {
         <Image src={leftarrow} alt='left-arrow'/>
         <Image src={rightarrow} alt='right-arrow'/>
       </div>
-      <div className="card items-center max-w-[100%] max-h-[500px] justify-center gap-8 bg-gradient-to-bl from-[#3a1e64] to-[#060B27] my-16 rounded-xl bg-[url('/assets/Bg shape.png')] ">
+      <div className="card items-center max-w-[100%] md:mx-4 max-h-[500px] justify-center gap-8 bg-gradient-to-bl from-[#3a1e64] to-[#060B27] my-16 rounded-xl bg-[url('/assets/Bg shape.png')] ">
         <Image src={discord} alt='discord'/>
         <h2 className='text-H2 text-white text-center'> Join the community</h2>
         <p className='text-p max-w-[700px] text-center'> Join our 400,000+ person community and contribute to a more private and decentralized internet. Start for free.</p>

@@ -12,8 +12,8 @@ const blog = () => {
         <h2 className='text-H2 text-center'> Product in the news</h2>
         <button className='purple-button'> Browse all news</button>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 justify-around">
-        <div className='card rounded-2xl'>
+      <div className="grid grid-cols-1 lg:grid-cols-3  gap-8 justify-around">
+        <div className='card rounded-2xl  md:mx-8'>
           <Image src={BI1} width={500} alt='Blog image 1'/>
           <h3 className='text-H3 text-white'> Product Mail is taking on Gmail by betting on privacy</h3>
           <p className='text-p border-b-4 border-gray-400 pb-6 text-justify'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nisi officiis deserunt, ipsa aliquid tenetur modi ratione deleniti, nobis animi, doloribus vitae. Beatae pariatur,.</p>
