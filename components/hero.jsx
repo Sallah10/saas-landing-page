@@ -5,7 +5,7 @@ import heroImage from '/assets/Hero image.png'
 const hero = () => {
   return (
     <>
-      <section className='flex flex-col gap-6 pt-10 max-w-screen my-20 items-center flex-wrap border-red-900 border-8' id='hero'>
+      <section className='flex flex-col gap-6 pt-10 max-w-screen p-4 my-20 items-center flex-wrap border-red-900 border-8' id='hero'>
         <h1 className='text-5xl bg-gradient-to-bl from-[#F6F6F7] to-[#7E808F] bg-clip-text text-transparent text-center text'>A CRM dashboard for engineering teams</h1>
         <p className='text-center text-p'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi dignissimos nesciunt repellat temporibus ducimus soluta ea consequatur a quas illum sed, ullam natus laborum animi exercitationem corporis voluptate architecto deleniti?</p>
         <div className='flex gap-6'>

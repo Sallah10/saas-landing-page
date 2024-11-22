@@ -52,7 +52,9 @@ body {
   .text-p {
     @apply text-xl text-[#7E808F] text-left;
   }
+
+  /* max-w-[500px]  for the card previously*/
   .card {
-    @apply bg-blue-950 max-w-[500px] flex flex-col p-10 gap-6;
+    @apply bg-blue-950 flex flex-col p-10 gap-6;
   }
 }

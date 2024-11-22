@@ -5,7 +5,7 @@ import logo from "/assets/logo.png"
 const header = () => {
   return (
     <>
-      <nav className='flex justify-between px-4 max-w-screen py-6 blur-24 -mt-20 mb-10 container bg-transparent items-center fixed backdrop-filter backdrop-blur-md'>
+      <nav className='flex justify-between container px-4 max-w-screen py-6 blur-24 -mt-20 mb-10 bg-transparent items-center fixed backdrop-filter backdrop-blur-md'>
               <Image
             src={logo}
             alt='Logo'

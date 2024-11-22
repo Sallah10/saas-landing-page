@@ -10,12 +10,12 @@ import discord from "/assets/discord.png"
 
 const testimonials = () => {
   return (
-    <section id='testimonials' className=' border-red-300 border-8'>
+    <section id='testimonials' className=' border-red-300 border-8 md:px-6'>
       <div className='flex flex-col items-center gap-8 mb-10 border-red-950'>
         <h2 className='text-H2 text-center'>What our clients say</h2>
         <p className='text-p text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique possimus qui dicta voluptatum distinctio ratione.</p>
       </div>
-      <div className="grid grid-cols-1 gap-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div className='card rounded-xl bg-gradient-to-bl from-[#746191] to-[#060B27]'>
           <div className='flex gap-6'>
             <Image src={avatar2} width={70} height={40} alt='avatar1'/>

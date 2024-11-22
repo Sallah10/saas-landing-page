@@ -9,10 +9,11 @@ import twitter from "/assets/twitter.png"
 const footer = () => {
   return (
     <footer  className='max-w-screen flex flex-col items-center py-10 bg-gradient-to-bl from-[#0b0716] to-[#060B27] rounded-tr-3xl  rounded-tl-3xl h-full mt-14'>
-      <div className='flex justify-between max-w-[100%]  border-b-4 border-gray-400 pb-6 items-center'>
+      <div className='flex justify-between max-w-[100%] md:gap-10 border-b-4 border-gray-400 pb-6 items-center'>
         <div className='flex flex-col gap-10'>
           <Image src={logo2} alt='logo'/>
-          <div className="card rounded-xl justify-between max-w-[300px]">
+          {/* max-w-[300px] */}
+          <div className="card rounded-xl justify-between">
             <h3 className='text-H3 text-white text-center'> Subscribe to our newsletter</h3>
             <input type="text" placeholder='Enter your email' className='bg-transparent px-4 py-4 text-white rounded-full border-slate-300 blur-[.5px] border-2 text-p' />
             <button className='purple-button  text-2xl text-gray-300'> Subscribe </button>
