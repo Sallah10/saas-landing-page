@@ -2,6 +2,8 @@
 import React from 'react'
 import Image from 'next/image'
 import logo from "/assets/logo.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSquareXmark, faBars } from '@fortawesome/free-solid-svg-icons'
 
 
 const Header = () => {
@@ -17,23 +19,25 @@ const Header = () => {
           <Image
             src={logo}
             alt='Logo'
-            // width={150}
-            // height={30}
+            // width={50}
+            // height={10}
           />
-          <div>
-            <div className='menu-icon' onClick={toggleNav}>
-              <i className={isopen ? 'fas fa-times' : 'fas fa-bars'}></i>
-            </div>
-            { isopen ? 
-              <div>
-                <a href="#">Home</a>
-                <a href="#about">About</a>
-                <a href="#features">Features</a>
-                <a href="#testimonials">Testimonials</a>
-                <a href="#blog">Blog</a> 
-                <button className='purple-button'>Got a demo</button> 
-              </div> 
-              : "" }
+          <div className='flex flex-col gap-4 md:hidden'>
+            <div onClick={toggleNav}>
+                <FontAwesomeIcon icon={isopen ? faSquareXmark : faBars} />
+                {/* <FontAwesomeIcon icon="fa-solid fa-square-xmark" /> */}
+                {/* <FontAwesomeIcon icon={isopen ? "fa-solid fa-square-xmark": 'fa-solid fa-bars'} /> */}
+              </div>
+              { isopen &&
+                (<div className='flex flex-col gap-4 text-slate-400 text-xl'>
+                  <a href="#">Home</a>
+                  <a href="#about">About</a>
+                  <a href="#features">Features</a>
+                  <a href="#testimonials">Testimonials</a>
+                  <a href="#blog">Blog</a> 
+                  {/* <button className='purple-button'>Got a demo</button>  */}
+                </div> )
+                }
           </div>
           <div className='hidden md:flex md:gap-4 md:text-slate-400 text-xl'>
             <a href="#">Home</a>

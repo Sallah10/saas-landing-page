@@ -7,7 +7,7 @@ const hero = () => {
     <>
       <section className='flex flex-col gap-6 pt-10 max-w-screen p-4 my-20 items-center flex-wrap' id='hero'>
         <h1 className='text-5xl lg:text-H1 bg-gradient-to-bl from-[#F6F6F7] to-[#7E808F] bg-clip-text text-transparent text-center'>A CRM dashboard for engineering teams</h1>
-        <p className='text-center text-p px-16'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi dignissimos nesciunt repellat temporibus ducimus soluta ea consequatur a quas illum sed, ullam natus laborum animi exercitationem corporis voluptate architecto deleniti?</p>
+        <p className='text-center text-p px-16'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi dignissimos nesciunt repellat temporibus ducimus lorum animi exercitationem corporis voluptate architecto deleniti?</p>
         <div className='flex gap-6'>
           <button className='purple-button lg:w-[200px] lg:p-4'>
             Got a demo

@@ -24,11 +24,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        className="container px-0 mx-auto bg-[#060B27] overflow-x-hidden"
+        // overflow-x-hidden
+        className="container px-0 mx-auto bg-[#060B27] "
       >
-        <Header/>
+        <Header />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
